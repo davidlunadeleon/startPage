@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "A start page made to be the first thing you see when opening your browser or a new tab.",
     "chrome_url_overrides": {
-        "newtab": "index.html"
+        "newtab": "dist/index.html"
     },
     "permissions": ["storage"]
 }

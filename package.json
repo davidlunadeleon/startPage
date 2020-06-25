@@ -1,0 +1,29 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "A start page made to be the first thing you see when opening your browser or a new tab.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "dev:run": "npm run build; web-ext run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlunadeleon/startPage.git"
+  },
+  "keywords": [
+    "startpage"
+  ],
+  "author": "David Luna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidlunadeleon/startPage/issues"
+  },
+  "homepage": "https://github.com/davidlunadeleon/startPage#readme",
+  "devDependencies": {
+    "web-ext": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
