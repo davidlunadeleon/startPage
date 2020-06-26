@@ -13,4 +13,6 @@ function ready(cb) {
 
 ready(() => {
     document.title = config.name;
+    document.getElementById('searchForm').action = config.searchEngine;
+    document.getElementById('searchInput').placeholder = config.placeHolderMessage;
 })

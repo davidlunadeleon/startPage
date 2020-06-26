@@ -1,3 +1,5 @@
 {
-    "name": "David"
+    "name": "David",
+    "searchEngine": "https://duckduckgo.com/",
+    "placeHolderMessage": "Looking for something?"
 }
