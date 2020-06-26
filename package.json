@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:build": "webpack --watch --config webpack.config.js",
-    "dev:run": "npm run dev:build & web-ext run"
+    "dev:run": "npm run dev:build & web-ext run",
+    "wp:build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
