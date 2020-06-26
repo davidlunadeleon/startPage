@@ -3,6 +3,7 @@ import  * as config from '../config/config.json';
 import backgroundImage from '../assets/background.jpg'
 import { makeTree } from './tree.js';
 import { greetings } from './greetings.js';
+import { clock } from '../js/clock.js';
 
 //Source of the ready function: http://youmightnotneedjquery.com/
 
@@ -21,7 +22,9 @@ ready(() => {
     document.getElementById('backgroundImage').src = backgroundImage;
     makeTree();
     greetings();
+    clock();
     document.body.setInterval(() => {
-       greetings(); 
+       greetings();
+       clock();
     }, 60000);
 })

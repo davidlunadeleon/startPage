@@ -3,6 +3,7 @@
     "name": "David",
     "searchEngine": "https://duckduckgo.com/",
     "placeHolderMessage": "Looking for something?",
+    "clockFormat": false,
     "greetingMessages": [
         {
             "until": 1200,
