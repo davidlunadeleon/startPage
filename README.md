@@ -2,6 +2,10 @@
 
 A start page made to be the first thing you see when opening your browser or a new tab.
 
+## How it looks like (work in progress)
+
+![Screenshot](./images/screenshot.jpg)
+
 ## Installation process
 
 Copy this repository and cd into it with
@@ -34,8 +38,8 @@ pkill -f webpack
 ## To do
 
 - [ ] Show the time
-- [ ] Show a tree of saved links
-- [ ] Divide saved links into categories
+- [X] Show a tree of saved links
+- [X] Divide saved links into categories
 - [ ] Collapsible categories of links
 - [X] Add search bar function
 - [ ] Read config from json file
