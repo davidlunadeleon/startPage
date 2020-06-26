@@ -12,7 +12,9 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            template: 'src/html/index.html'
+        })
     ],
     module: {
         rules: [
@@ -21,6 +23,12 @@ module.exports = {
                 use: [
                     'style-loader',
                     'css-loader'
+                ]
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    'file-loader'
                 ]
             }
         ]
