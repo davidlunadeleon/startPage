@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js",
-    "dev:run": "npm run build; web-ext run"
+    "dev:build": "webpack --watch --config webpack.config.js",
+    "dev:run": "npm run dev:build & web-ext run"
   },
   "repository": {
     "type": "git",

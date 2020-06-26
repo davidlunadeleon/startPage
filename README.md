@@ -2,18 +2,49 @@
 
 A start page made to be the first thing you see when opening your browser or a new tab.
 
+## Installation process
+
+Copy this repository and cd into it with
+
+```
+git clone https://github.com/davidlunadeleon/startPage.git
+cd startPage
+```
+
+Install the build tools with
+
+```
+npm install
+```
+
+## Run in dev mode
+
+To run the extension in a Firefox test environment use
+
+```
+npm run dev:run
+```
+
+After you're done, remember to use the following command to stop the webpack watch
+
+```
+pkill -f webpack
+```
+
 ## To do
 
 - [ ] Show the time
 - [ ] Show a tree of saved links
 - [ ] Divide saved links into categories
 - [ ] Collapsible categories of links
-- [ ] Add search bar function
+- [X] Add search bar function
 - [ ] Read config from json file
 - [ ] Add functionality to change settings within browser
 - [ ] Persistent changes to settings
 - [ ] Allow file upload to set background image
 - [ ] Add wiki
+- [ ] Add build scripts
+- [ ] Add instructions to actually use in the browser
 
 ## Libraries and packages used
 
