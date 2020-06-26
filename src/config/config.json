@@ -1,5 +1,63 @@
 {
     "name": "David",
     "searchEngine": "https://duckduckgo.com/",
-    "placeHolderMessage": "Looking for something?"
+    "placeHolderMessage": "Looking for something?",
+    "sitesTree":[
+        {
+            "sectionName":"Social",
+            "sites": [
+                {
+                    "siteName": "Reddit",
+                    "url": "https://reddit.com"
+                },
+                {
+                    "siteName": "Youtube",
+                    "url": "https://youtube.com"
+                },
+                {
+                    "siteName": "My Anime List",
+                    "url": "https://myanimelist.net"
+                }
+            ]
+        },
+        {
+            "sectionName": "Developtment",
+            "sites": [
+                {
+                    "siteName": "Github",
+                    "url": "https://github.com"
+                },
+                {
+                    "siteName": "Leetcode",
+                    "url": "https://leetcode.com"
+                }
+            ]
+        },
+        {
+            "sectionName": "Selft Hosted",
+            "sites": [
+                {
+                    "siteName": "Tiny tiny RSS",
+                    "url": "http://localhost:8280"
+                },
+                {
+                    "siteName": "Calibre Web",
+                    "url": "http://localhost:8083"
+                }
+            ]
+        },
+        {
+            "sectionName": "Gaming",
+            "sites": [
+                {
+                    "siteName": "Humble Bundle",
+                    "url": "https://humblebundle.com"
+                },
+                {
+                    "siteName": "Steam",
+                    "url": "https://store.steampowered.com"
+                }
+            ]
+        }
+    ]
 }
