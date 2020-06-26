@@ -1,7 +1,26 @@
 {
+    "pageTitle": "David's startpage",
     "name": "David",
     "searchEngine": "https://duckduckgo.com/",
     "placeHolderMessage": "Looking for something?",
+    "greetingMessages": [
+        {
+            "until": 1200,
+            "message": "Good morning, "
+        }, 
+        {
+            "until": 1800,
+            "message": "Good afternoon, "
+        }, 
+        {
+            "until": 2000,
+            "message": "Good evening, "
+        },
+        {
+            "until": 2400,
+            "message": "Good night, "
+        }
+    ],
     "sitesTree":[
         {
             "sectionName":"Social",
