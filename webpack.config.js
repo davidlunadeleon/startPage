@@ -1,9 +1,28 @@
-var path = require('path');
+const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/js/index.js',
+    entry: {
+        index: './src/js/index.js'
+    },
     output: {
-        path: path.resolve(__dirname, 'dist/js'),
-        filename: 'main.js'
+        path: path.resolve(__dirname, 'dist/web'),
+        filename: '[name].bundle.js'
+    },
+    plugins: [
+        new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin()
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
     }
 };
