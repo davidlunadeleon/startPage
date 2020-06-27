@@ -71,7 +71,7 @@ The resulting zip named startpage.zip will be saved to dist/build/
 - [X] Show the time
 - [X] Show a tree of saved links
 - [X] Divide saved links into categories
-- [ ] Collapsible categories of links
+- [X] Collapsible categories of links
 - [X] Add search bar function
 - [ ] Read config from json file
 - [ ] Add functionality to change settings within browser
