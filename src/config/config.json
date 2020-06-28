@@ -42,10 +42,10 @@
             ]
         },
         {
-            "sectionName": "Developtment",
+            "sectionName": "Development",
             "sites": [
                 {
-                    "siteName": "Github",
+                    "siteName": "GitHub",
                     "url": "https://github.com"
                 },
                 {
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "sectionName": "Selft Hosted",
+            "sectionName": "Self Hosted",
             "sites": [
                 {
                     "siteName": "Tiny tiny RSS",
