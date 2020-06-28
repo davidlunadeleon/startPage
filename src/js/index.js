@@ -3,7 +3,7 @@ import  * as config from '../config/config.json';
 import backgroundImage from '../assets/background.jpg'
 import { makeTree } from './tree.js';
 import { greetings } from './greetings.js';
-import { clock } from './clock.js';
+import { clock, currentDate } from './clock.js';
 import { accordion } from './accordion.js'
 
 //Source of the ready function: http://youmightnotneedjquery.com/
@@ -24,9 +24,13 @@ ready(() => {
     makeTree();
     greetings();
     clock();
+    currentDate()
     setInterval(() => {
-       greetings();
        clock();
-    }, 1000);
+    }, 1000); 
+    setInterval(() => {
+       currentDate();
+       greetings();
+    }, 60000);
     accordion();
 })
