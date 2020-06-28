@@ -16,7 +16,7 @@ function clock(){
         currentTime += minutes;
     }
     currentTime += ` ${ampm}`;
-    document.getElementById('currentTime').innerHTML = currentTime;
+    document.getElementById('currentTime').textContent = currentTime;
 }
 
 export { clock };

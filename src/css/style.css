@@ -13,6 +13,8 @@ body, html {
 
 ul, li {
     list-style: none;
+    margin-bottom: -2%;
+    margin-top: -2%;
 }
 
 a {
@@ -54,6 +56,9 @@ a:hover {
     transform: translate(-50%, -50%);
     width: 80%;
     grid-template-columns: 50% 50%;
+    max-height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .block {

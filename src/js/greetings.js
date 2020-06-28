@@ -14,7 +14,7 @@ function greetings() {
     while(hours * 100 + minutes > greetingsMap[i].until){
         i++;
     }
-    document.getElementById('greetingMessage').innerHTML = greetingsMap[i].message + config.name;
+    document.getElementById('greetingMessage').textContent = greetingsMap[i].message + config.name;
 }
 
 export { greetings };

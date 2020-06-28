@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:build": "webpack --watch --config webpack.config.js",
-    "dev:run": "npm run dev:build & web-ext run",
+    "dev:run": "npm run dev:build & web-ext run -i=images/ src/ node_modules/ \"*.json\" \"*.js\"",
     "wp:build": "webpack --config webpack.config.js",
-    "build": "npm run wp:build; web-ext build -o true --filename startpage.zip -a dist/build/"
+    "build": "npm run wp:build; web-ext build -o true --filename startpage.zip -a dist/build/ -i=images/ src/ node_modules/ \"*.json\" \"*.js\""
   },
   "repository": {
     "type": "git",
