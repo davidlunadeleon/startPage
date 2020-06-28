@@ -81,6 +81,8 @@ At the moment, the configuration is made via the `config.json` file at `src/conf
 |greetingMessages|until: 0 to 2400, represents hours and minuts. Message: any string|Array that specifies greeting messages by time of the day. The array is sorted and the corresponding greeting message will be shown with the previously specified name concatenated at the end. The message with the lowest until value will be displayed from midnight until the specified time of the day|
 |sitesTree|sectionName: any string. sites: Array containing the names and urls of each site in the section|The structure in the config file is self explanatory. Each section contains a group of sites. The url and display name of the site can be specified in the corresponding sites array.|  
 
+* To set the background image, put the image in `src/assets/` with the name `background.jpg`. To use another name or file format, change the line 3 at `src/js/index.js`.
+
 ## To do
 
 - [X] Show the tim
