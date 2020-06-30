@@ -20,7 +20,6 @@ ready(() => {
     document.title = config.pageTitle;
     document.getElementById('searchForm').action = config.searchEngine;
     document.getElementById('searchInput').placeholder = config.placeHolderMessage;
-    document.getElementById('backgroundImage').src = backgroundImage;
     makeTree();
     greetings();
     clock();
