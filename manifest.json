@@ -6,5 +6,9 @@
     "chrome_url_overrides": {
         "newtab": "dist/web/index.html"
     },
+    "options_ui": {
+        "page": "dist/web/options.html",
+        "open_in_tab": true
+    },
     "permissions": ["storage"]
 }
