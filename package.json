@@ -1,36 +1,42 @@
 {
-  "name": "startpage",
-  "version": "1.0.0",
-  "description": "A start page made to be the first thing you see when opening your browser or a new tab.",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:build": "webpack --watch --config webpack.config.js",
-    "dev:run": "npm run dev:build & web-ext run -i=images/ src/ node_modules/ \"*.json\" \"*.js\" \"!manifest.json\"",
-    "wp:build": "webpack --config webpack.config.js",
-    "build": "npm run wp:build; web-ext build -o true --filename startpage.zip -a dist/build/ -i=images/ src/ node_modules/ \"*.json\" \"*.js\" \"!manifest.json\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidlunadeleon/startPage.git"
-  },
-  "keywords": [
-    "startpage"
-  ],
-  "author": "David Luna",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/davidlunadeleon/startPage/issues"
-  },
-  "homepage": "https://github.com/davidlunadeleon/startPage#readme",
-  "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.6.0",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "style-loader": "^1.2.1",
-    "web-ext": "^4.3.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  }
+    "name": "startpage",
+    "version": "1.0.0",
+    "description": "A start page made to be the first thing you see when opening your browser or a new tab.",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev:build": "webpack --watch --config webpack.config.js",
+        "dev:run": "npm run dev:build & web-ext run -i=images/ src/ node_modules/ \"*.json\" \"*.js\" \"!manifest.json\"",
+        "wp:build": "webpack --config webpack.config.js",
+        "build": "npm run wp:build; web-ext build -o true --filename startpage.zip -a dist/build/ -i=images/ src/ node_modules/ \"*.json\" \"*.js\" \"!manifest.json\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/davidlunadeleon/startPage.git"
+    },
+    "keywords": [
+        "startpage"
+    ],
+    "author": "David Luna",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/davidlunadeleon/startPage/issues"
+    },
+    "homepage": "https://github.com/davidlunadeleon/startPage#readme",
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.6.0",
+        "file-loader": "^6.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "style-loader": "^1.2.1",
+        "web-ext": "^4.3.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    }
 }
