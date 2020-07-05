@@ -9,11 +9,11 @@
         {
             "until": 1200,
             "message": "Good morning, "
-        }, 
+        },
         {
             "until": 1800,
             "message": "Good afternoon, "
-        }, 
+        },
         {
             "until": 2100,
             "message": "Good evening, "
@@ -23,9 +23,9 @@
             "message": "Good night, "
         }
     ],
-    "sitesTree":[
+    "sitesTree": [
         {
-            "sectionName":"Social",
+            "sectionName": "Social",
             "sites": [
                 {
                     "siteName": "Reddit",

@@ -1,6 +1,6 @@
 import * as config from '../config/config.json';
 
-function sortAux(a, b){
+function sortAux(a, b) {
     return a.until - b.until;
 }
 
@@ -11,10 +11,11 @@ function greetings() {
     var greetingsMap = config.greetingMessages;
     greetingsMap.sort(sortAux);
     var i = 0;
-    while(hours * 100 + minutes > greetingsMap[i].until){
+    while (hours * 100 + minutes > greetingsMap[i].until) {
         i++;
     }
-    document.getElementById('greetingMessage').textContent = greetingsMap[i].message + config.name;
+    document.getElementById('greetingMessage').textContent =
+        greetingsMap[i].message + config.name;
 }
 
 export { greetings };
